@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+   padding: 0;
+    margin: 0;
+   padding: 0;
+}
+
+.main{
+    width: 100;
+    background:url(./assets/beachside\ bungalow.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+    text-align: justify;
+    
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: orangered;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+.logo a {
+    text-decoration: none; 
+    color: orangered; 
+    font-size: 35px; 
+    font-family: Arial; 
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ nav li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+nav a{
+text-decoration: none;
+color: black;
+font-size: large;
+font-weight: bold;
+transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: orangered;
+}
+
+nav search{
+    width: 330px;
+    float: left;
+    margin: left 270px; ;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid orangered;
+    margin: top 10px; 
+    color: blanchedalmond;
+    border-right: none;
+    font-size: 14px;
+    float: left;
+    padding: 10px;
+    border: bottom left radius 4px;
+    border-top-left-radius: 4px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    background: #f2f2f2;
+    overflow: auto;
+}
+.homes{
+    margin: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 390px;
+}
+.homes img{
+    width: 100%;
+    height: auto;
+}
+.desc{
+    padding: 15px;
+    text-align: center;
+}
+.centered-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.title {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.media {
+    margin-top: 20px;
+}
+
+audio {
+    width: 900px;
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+    
+
